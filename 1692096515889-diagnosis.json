@@ -1,0 +1,137 @@
+{
+  "versionDetail": {
+    "cliVersion": "@salesforce/cli/2.3.8",
+    "architecture": "darwin-x64",
+    "nodeVersion": "node-v18.15.0",
+    "osVersion": "Darwin 22.5.0",
+    "shell": "zsh",
+    "rootPath": "/usr/local/lib/sf",
+    "pluginVersions": [
+      "@oclif/plugin-autocomplete 2.3.3 (core)",
+      "@oclif/plugin-commands 2.2.21 (core)",
+      "@oclif/plugin-help 5.2.15 (core)",
+      "@oclif/plugin-not-found 2.3.34 (core)",
+      "@oclif/plugin-plugins 3.1.8 (core)",
+      "@oclif/plugin-search 0.0.21 (core)",
+      "@oclif/plugin-update 3.1.28 (core)",
+      "@oclif/plugin-version 1.3.8 (core)",
+      "@oclif/plugin-warn-if-update-available 2.0.46 (core)",
+      "@oclif/plugin-which 2.2.29 (core)",
+      "@salesforce/cli 2.3.8 (core)",
+      "apex 2.3.9 (core)",
+      "auth 2.8.10 (core)",
+      "data 2.5.4 (core)",
+      "deploy-retrieve 1.16.5 (core)",
+      "info 2.6.35 (core)",
+      "limits 2.3.27 (core)",
+      "login 1.2.23 (core)",
+      "org 2.9.28 (core)",
+      "schema 2.3.21 (core)",
+      "settings 1.4.21 (core)",
+      "sobject 0.1.42 (core)",
+      "source 2.10.28 (core)",
+      "telemetry 2.2.3 (core)",
+      "templates 55.5.7 (core)",
+      "trust 2.5.1 (core)",
+      "user 2.3.27 (core)"
+    ]
+  },
+  "sfdxEnvVars": [],
+  "sfEnvVars": [
+    [
+      "SF_BINPATH",
+      "/usr/local/lib/sf/bin/sf"
+    ],
+    [
+      "SF_AUTOUPDATE_DISABLE",
+      "true"
+    ],
+    [
+      "SF_DISABLE_AUTOUPDATE",
+      "true"
+    ],
+    [
+      "SF_UPDATE_INSTRUCTIONS",
+      "Use \"npm update --global @salesforce/cli\" to update npm-based installations."
+    ]
+  ],
+  "cliConfig": {
+    "_base": "@oclif/core@2.11.5",
+    "debug": 0,
+    "topicSeparator": " ",
+    "warned": false,
+    "commandPermutations": {
+      "validPermutations": {}
+    },
+    "topicPermutations": {
+      "validPermutations": {}
+    },
+    "_commands": {},
+    "_topics": {},
+    "root": "/usr/local/lib/sf",
+    "name": "@salesforce/cli",
+    "version": "2.3.8",
+    "channel": "stable",
+    "valid": true,
+    "arch": "x64",
+    "platform": "darwin",
+    "windows": false,
+    "bin": "sf",
+    "binAliases": [
+      "sfdx"
+    ],
+    "nsisCustomization": "scripts/nsis.nsi",
+    "dirname": "sf",
+    "flexibleTaxonomy": true,
+    "userAgent": "@salesforce/cli/2.3.8 darwin-x64 node-v18.15.0",
+    "shell": "zsh",
+    "home": "/Users/joshuajinadu",
+    "cacheDir": "/Users/joshuajinadu/Library/Caches/sf",
+    "configDir": "/Users/joshuajinadu/.config/sf",
+    "dataDir": "/Users/joshuajinadu/.local/share/sf",
+    "errlog": "/Users/joshuajinadu/Library/Caches/sf/error.log",
+    "binPath": "/usr/local/lib/sf/bin/sf",
+    "nodeEngine": ">=14.0.0"
+  },
+  "pluginSpecificData": {
+    "@salesforce/plugin-source": [
+      {
+        "apiVersion": "58.0",
+        "sourceApiVersion": "58.0",
+        "targetOrgApiVersion": "58.0"
+      }
+    ]
+  },
+  "diagnosticResults": [
+    {
+      "testName": "salesforcedx plugin not installed",
+      "status": "pass"
+    },
+    {
+      "testName": "no linked plugins",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-source] sourceApiVersion matches apiVersion",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-source] sourceApiVersion matches default target org max apiVersion",
+      "status": "pass"
+    },
+    {
+      "testName": "[@salesforce/plugin-source] apiVersion matches default target org max apiVersion",
+      "status": "pass"
+    },
+    {
+      "testName": "using latest or latest-rc CLI version",
+      "status": "pass"
+    }
+  ],
+  "suggestions": [
+    "Check https://github.com/forcedotcom/cli/issues for CLI issues posted by the community.",
+    "Check http://status.salesforce.com for general Salesforce availability and performance."
+  ],
+  "logFilePaths": [],
+  "commandExitCode": 0
+}
